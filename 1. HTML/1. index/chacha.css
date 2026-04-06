@@ -1,0 +1,16 @@
+.table{
+            border: 1px solid black;
+}
+.table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    
+}
+.table{
+    border: 1px solid black;
+    border-radius: 10px;
+    border-width: 8px;
+    border-top-left-radius: 10px;
+    border-left: 10px;
+    border-top: 2px;
+}

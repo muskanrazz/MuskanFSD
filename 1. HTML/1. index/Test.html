@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+         margin: 0;
+         height: 100vh;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+        }
+        form{   
+            padding: 20px;
+            box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+        }
+
+        input, label{
+            margin 5px;
+        }
+        body{
+            background-image: url( http://getwallpapers.com/wallpaper/full/8/6/e/1093011-nature-background-hd-1920x1080-iphone.jpg);
+        }
+    </style>
+</head>
+<body>
+   <form>
+    <h1>Registration Form</h1>
+    <lable>Username:</lable>
+    <input type="text" placeholder="Enter username"/>
+    <br>
+
+     <lable>City:</lable>
+    <input type="text" placeholder="Enter City"/>
+    <br>
+
+    <label>Date of birth</label>
+    <input type="date"/>
+    <br>
+    
+    <label>Gender:</label>
+    <label>Male</label>
+    <input type="radio" name="gender" value="male" />
+    <label>Female</label>
+    <input type="radio" name="gender" value="female" />
+    <label>Others</label>
+    <input type="radio" name="gender" value="others" />
+    <br>
+
+    <label>Age</label>
+    <input type="range" />
+    <br>
+
+    <label>Email</label>
+    <input type="email" placeholder="Enter email"/>
+    <br>
+
+    <label>password</label>
+    <input type="password" placeholder="Enter password"/>
+    <br>
+
+   <button type="submit">Register</button>
+   </form> 
+</body>
+</html>

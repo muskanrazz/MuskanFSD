@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=delete" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: larger;
+            font-weight: 100;
+        }
+    .flex{
+        display: flex;
+        outline: 1px solid blue;
+        text-align:center ;
+    }
+    .flex h1{
+        /* text-decoration: line-through; */
+        text-decoration: dashed;
+    }
+    .flex h2{
+        text-decoration: dotted;
+    }
+    /* *{
+        margin: 0;
+    } */
+    p{
+        background-color: red;
+        /* display:inline-block;  */
+        /* inline block is not left any space  */
+    }
+    span{
+        background-color: green;
+        /* display: block; */
+    } 
+    .container{
+        display: flex;
+    }
+    .p1{
+        width: 100vh;
+        height: 10vh;
+    }
+    .p2{
+        max-width: 100vh;
+       max-height: 10vh;
+    }
+
+    </style>
+</head>
+<body>
+    <span class="material-symbols-outlined">
+delete
+</span>
+<!-- <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-archive-fill" viewBox="0 0 16 16">
+  <path d="M12.643 15C13.979 15 15 13.845 15 12.5V5H1v7.5C1 13.845 2.021 15 3.357 15zM5.5 7h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1M.8 1a.8.8 0 0 0-.8.8V3a.8.8 0 0 0 .8.8h14.4A.8.8 0 0 0 16 3V1.8a.8.8 0 0 0-.8-.8z"/>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+  <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5M8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5m3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0"/>
+</svg> -->
+    <div class="flex">
+        <h1>Bhopal</h1>
+        <h2>Indore</h2>
+        <h3>delhi</h3>
+        <h4>Mumbai</h4>
+        <h4>Jaipur</h4>
+        <h4>Pune</h4>
+    </div>
+    <div class="container">
+        <h1>Bhopal</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, reprehenderit.</p>
+    <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam, numquam!</span>
+    </div>
+    <!-- there is a gap between paragrap because of paragraph have margin of 32px -->
+    <div class="container">
+        <h1>Bhopal</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, reprehenderit.</p>
+    <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam, numquam!</span>
+    </div>
+    <p class="p1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti, voluptatibus.</p>
+<p class="p2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa, consequatur.</p>
+</body>
+</html>
