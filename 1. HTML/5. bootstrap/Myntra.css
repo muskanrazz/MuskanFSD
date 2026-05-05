@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 40px;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Logo */
+.logo img {
+  width: 80px;
+}
+
+/* Nav Links */
+.nav-links {
+  display: flex;
+  gap: 25px;
+  margin-left: 20px;
+
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #282c3f;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+/* .nav-links a:hover {
+  border-bottom: 2px solid red;
+} */
+
+/* Studio NEW tag */
+.studio span {
+  color: red;
+  font-size: 10px;
+  margin-inline-end: 1px;
+}
+
+/* Search Box */
+.search-box {
+  flex: 1;
+  margin: 0 30px;
+}
+
+.search-box input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: none;
+  background-color: #f5f5f6;
+  outline: none;
+}
+
+/* Icons */
+.nav-icons {
+  display: flex;
+  gap: 20px;
+  font-size: 12px;
+  text-align: center;
+}
+.icon1{
+  font-size: 15px;
+}
+.icon2{
+  font-size: 15px;
+}
+.icon3{
+  font-size: 15px;
+}
+        .body{
+            height: 100vh;
+            width: 100%;
+        }
+        h1{
+          height: 100px;
+          top: 100px;
+          padding: 100px;
+        }
+       .img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       }
+       /* .carousel-item{
+           width: 1200px;
+       } */
+
+        .box{
+              display: flex;
+              justify-content: center;
+        }
+        .footer{
+          /* border: 50px; */
+          /* height: 50px; */
+          margin: 100px;
+          padding: 100px;
+          /* display: flex; 
+          justify-content: space-between; */
+        }
+        /* .left{
+            /* display: flex; */
+            /* justify-content: space-evenly;
+
+        }
+        .right{
+          /* display: flex; */
+          /* justify-content: space-evenly;
+        */ 
+        .footer-middle {
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center; */
+  flex-wrap: wrap;
+  color: #777;
+  margin-bottom: 15px;
+}
+.end{
+    display: flex;
+    justify-content: end;
+}
+.end2{
+    display: flex;
+    justify-content: end;
+}
+.foot{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}

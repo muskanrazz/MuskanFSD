@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   font-family: 'Times New Roman', Times, serif;
+}
+.body{
+    height: 100vh;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+   padding: 20px;
+   gap:490px;
+
+    
+     
+}
+.textleft{
+  margin-left:-660px;
+}
+.textright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.aboutme{
+    background-color: lightpink;
+    height: 200px;
+    width: 100px;
+
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body{
+            height: 100vh;
+        }
+        .header{
+               background-color: black;
+               color: aliceblue;
+               /* margin: 5px; */
+               padding: 20px;
+        }
+        .main{
+           min-height: calc(100vh - 117px);
+           display: flex;
+        }
+        .sidebar{
+           background-color: aqua;
+           width: 18%;
+        }
+        .content{
+           background-color: beige;
+            width: 70%;
+        }
+        .ads{
+            background-color: lightgreen;
+            width: 12%;
+        }
+        .footer{
+            background-color: black;
+               color: aliceblue;
+               /* margin: 5px; */
+               padding: 20px;
+        }
+        .item{
+            background-color: blueviolet;
+            margin: 5px;
+            padding: 16px;
+            text-align: center;
+            border-radius: 5px;
+        }
+        .item:hover{
+            background-color: aqua;
+        }
+        .cards{
+            text-align: center;
+            font-size: 40px;
+            font-weight: 100px;
+            margin: 20px;
+        }
+        .card{
+            height: 80px;
+            width: 80px;
+            background-color: purple;
+            margin: 20px;
+            padding: 10px;
+            border-radius: 10px;
+            
+        }
+        .box{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="header">Header</div>
+    <div class="main">
+        <div class="sidebar">Sidebar
+            <div class="item">HTML</div>
+            <div class="item">CSS</div>
+            <div class="item">JS</div>
+            <div class="item">NodeJs</div>
+            <div class="item">React</div>
+            <div class="item">Express</div>
+            <div class="item">MongoDb</div>
+            <div class="item">NextJs</div>
+            <div class="item">NestJs</div>
+            <div class="item">NuxtJs</div>
+        </div>
+        <div class="content">
+
+            <div class="cards">Our Cards </div>
+            <div class="box">
+            
+            <div class="card">HTML</div>
+            <div class="card">CSS</div>
+            <div class="card">Java</div>
+            <div class="card">React</div>
+            <div class="card">Mern</div>
+            </div>
+        </div>
+        <div class="box"></div>
+        <div class="ads">Ads</div>
+    </div>
+    <div class="footer">Footer</div>
+</body>
+</html>

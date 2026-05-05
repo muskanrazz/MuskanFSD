@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: lightblue;
+            display: flex; 
+            /*flex wrap is using for maintain the whole screen size according the mobile & lapi*/
+            flex-wrap: wrap;
+            /* flex-wrap: wrap-reverse; */
+            /* flex-wrap: nowrap; */
+            /* height: 100vh; */
+            /* justify-content: space-evenly; */
+            /* flex-direction: column-reverse;
+            flex-direction: column;
+            flex-direction: row;
+            flex-direction: row-reverse; */
+            /* align-items: self-start; */
+        }
+        .box{
+            height: 30px;
+            width: 50px;
+            padding: 20px;
+            background-color: lightseagreen;
+            margin: 50px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="box">1</div>
+    <div class="box">2</div>
+    <div class="box">3</div>
+    <div style="flex-grow: 50;" class="box">4</div>
+    <div style="flex-shrink: 20;" class="box">5</div>
+    <div class="box">6</div>
+    <div class="box">7</div>
+    <div class="box">8</div>
+    <div class="box">9</div>
+    </div>
+</body>
+</html>

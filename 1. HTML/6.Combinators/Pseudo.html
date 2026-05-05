@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p {
+            display: block;
+        }
+        p :hover{
+            font-size: 40px;
+        }
+        button{
+           
+            background-color: blue;
+        }
+        button :hover
+     {
+    background-color: red;
+     font-size: 40px;
+     }   
+     img{
+    height: 100px;
+     width: 100px;
+    /* background-color: aqua; */
+}
+  img:hover{
+    height: 200px;
+     width: 200px;
+    /* background-color: red; */
+}
+button:focus{
+    background-color: red;
+}
+button{
+    background-color: aquamarine;
+}
+button hover {
+     background-color: bisque;
+}
+ p{
+   display: none;
+}
+ .btn:hover + p{
+    display: block;
+} 
+ p{
+    display: none;
+ } 
+
+.btn-grad {
+  background-image: linear-gradient(to right, #3CA55C 0%, #B5AC49 51%, #3CA55C 100%);
+}
+
+.btn-grad {
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+  outline: none;
+  border: none;
+}
+
+.btn-grad:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+
+</style>
+</head>
+<body>
+    <!-- <p>Lorem ipsum dolor sit amet.</p> -->
+    <div>Lorem ipsum dolor sit amet.</div>
+    <button>Register</button>
+    <img  src="IMG-20250101-WA0020.jpg">
+    <button class="btn-grad"> Submit</button>
+    <p>I'm Muskan</p>
+</body>
+</html>

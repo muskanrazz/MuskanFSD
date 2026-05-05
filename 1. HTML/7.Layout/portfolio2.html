@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Story Scroller</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+body {
+  background: white;
+  padding: 20px;
+}
+
+/* Container */
+.story-container {
+  display: flex;
+  overflow: auto;
+  gap: 15px;
+  padding: 10px;
+}
+
+/* Hide scrollbar (optional) */
+.story-container::-webkit-scrollbar {
+  display: none;
+}
+
+/* Each Story */
+.story {
+  text-align: center;
+  min-width: 80px;
+}
+
+/* Profile Image */
+.story img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  padding: 3px;
+  background: linear-gradient(45deg, red, orange, purple);
+}
+
+/* Username */
+.story p {
+  font-size: 12px;
+  margin-top: 5px;
+}
+  </style>
+</head>
+<body>
+
+  <div class="story-container">
+
+    <div class="story">
+      <img src="https://i.pravatar.cc/100?img=1">
+      <p>User1</p>
+    </div>
+
+    <div class="story">
+      <img src="https://i.pravatar.cc/100?img=2">
+      <p>User2</p>
+    </div>
+     <div class="story">
+      <img src="https://i.pravatar.cc/100?img=2">
+      <p>User2</p>
+    </div>
+     <div class="story">
+      <img src="https://i.pravatar.cc/100?img=2">
+      <p>User2</p>
+    </div>
+     <div class="story">
+      <img src="https://i.pravatar.cc/100?img=2">
+      <p>User2</p>
+    </div>
+
+     <div class="story">
+      <img src="https://i.pravatar.cc/100?img=2">
+      <p>User2</p>
+    </div>
+     <div class="story">
+      <img src="https://i.pravatar.cc/100?img=2">
+      <p>User2</p>
+    </div>
+     <div class="story">
+      <img src="https://i.pravatar.cc/100?img=2">
+      <p>User2</p>
+    </div>
+
+    <div class="story">
+      <img src="https://i.pravatar.cc/100?img=3">
+      <p>User3</p>
+    </div>
+
+    <div class="story">
+      <img src="https://i.pravatar.cc/100?img=4">
+      <p>User4</p>
+    </div>
+
+    <div class="story">
+      <img src="https://i.pravatar.cc/100?img=5">
+      <p>User5</p>
+    </div>
+
+    <div class="story">
+      <img src="https://i.pravatar.cc/100?img=6">
+      <p>User6</p>
+    </div>
+
+  </div>
+
+</body>
+</html>
