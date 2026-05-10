@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         body{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+         button{
+            background-color: black;
+            color: aliceblue;
+            padding: 20px 15px;
+            transition: 2s;
+        }
+        button:hover{
+            background-color: red;
+            /* transform: scale(1.2); */
+            /* transform: rotate(360deg); */
+            /* transform: rotate3d(1, 1, 1, 45deg); */
+            /* transform: skew(45deg); */
+            transform: translate(100px, 50px);
+        }
+        .loader{
+            border: 5px solid lightblue;
+            height: 200px;
+            width: 200px;
+            border-top: 10px solid red;
+            border-radius: 50%;
+            animation: spin 1s infinite;
+        }
+        @keyframes spin {
+            0%{
+                transform: rotate(360deg);
+            }
+            50%{
+                transform: rotate(360deg);
+            }
+            100%{
+                transform: rotate(0deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <button>Hover Me</button>
+    <div class="loader"></div>
+</body>
+</html>

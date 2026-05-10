@@ -1,0 +1,70 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+   .container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: aqua;
+    height: 50px;
+   }
+   body{
+    background-color: bisque;
+    height: 3000pxt;
+   }
+   .right{
+    display: flex;
+    gap: 200px;
+    justify-content: space-evenly;
+   }
+   h1{
+    height: 300px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 150px;
+   }
+   h2{
+      height: 100px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 150px;
+   }
+   .btn{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   button{
+    background: brown;
+    border: none;
+   }
+   h3{
+    height: 50px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background: red;
+   }
+   .food{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .about{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   p{
+     background-color: pink;
+     border-radius: 20px;
+    /* height: 1000px;
+    width: 100px; */
+   }
