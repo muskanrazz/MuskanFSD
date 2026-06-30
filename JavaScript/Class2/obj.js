@@ -1,7 +1,7 @@
 // const arr= [1,2,3,4,5, true, "Muskan", "Bhoapal", [6,7], {"name": "muskan"}]
 // console.log(arr[parseInt((arr.length-1)/2)])
 
-const obj= {
+let obj= {
     name: "Muskan",
     age: 20,
     isActive: true,
@@ -18,11 +18,17 @@ console.log(obj.address.pincode)
 console.log(obj['address'])
 console.log(obj['address']['pincode'])
 
+// obj.name="akash";
+// console.log(obj.name)
 
-const arr =["apple", "mango", "lichi"]
-for(let i=arr.length; i>=0; i--)
-    console.log(arr[i])
+// const arr =["apple", "mango", "lichi"]
+// for(let i=arr.length-1; i>=0; i--)
+//     console.log(arr[i])
 
+const arr=[1,2,3,4,5]
+for(let i of arr){
+    console.log(i)
+}
 
 
 

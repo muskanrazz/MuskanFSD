@@ -49,3 +49,53 @@ else{
 
 // h/w== grade calculater 
 // insert 5 sub marks using prompt , calculate per then print per & grade
+
+// javascript is a CaseSensitive
+// {
+// var a=10;
+// }
+// console.log(a);
+
+// {
+// let a=10;
+// }
+// console.log(a);
+
+
+// let b=15;
+// {
+//  console.log(b);
+// }
+
+// let abc123=20;
+
+// console.log(abc123);
+
+// let first-name="Muskan";
+
+// console.log(first-name);
+
+// let $ = 50;
+// console.log($)
+
+// let _ = 60;
+// console.log(_)
+
+// let a=null;
+// console.log(a)
+
+
+let bpl = Symbol("pizzahut")
+let Ind = Symbol("pizzahut")
+
+if(bpl==Ind){
+    console.log(true);
+}
+else{
+console.log(false);
+}
+
+console.log(typeof(bpl));
+
+let x= 1234567n;
+console.log(typeof(x))
